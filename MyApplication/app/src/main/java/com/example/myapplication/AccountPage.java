@@ -1,4 +1,4 @@
-package vn.edu.usth.account;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +20,7 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_accountpage);
         email=findViewById(R.id.email);
         pass=findViewById(R.id.password);
         name=findViewById(R.id.name);
@@ -60,9 +60,9 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
                 String phoneTXT=phonenumber.getText().toString();
                 Boolean checkInsertData=db.insertData(emailTXT,passTXT,nameTXT,phoneTXT);
                 if(checkInsertData==true)
-                    Toast.makeText(MainActivity.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AccountPage.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
                 else
-                    Toast.makeText(MainActivity.this, "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AccountPage.this, "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.b2:
                 startActivity(new Intent(this,Help.class));
@@ -76,7 +76,7 @@ public class AccountPage extends AppCompatActivity implements View.OnClickListen
                    // t2.setText(u.email);
                 }
                 else{
-                    t.setText("Fail vl");
+                    t.setText("Fail");
                     }
                 break;
             case R.id.b4:

@@ -1,4 +1,4 @@
-package vn.edu.usth.account;
+package com.example.myapplication;
 
 public class User {
     String password,email,name,phonenumber;

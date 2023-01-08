@@ -71,5 +71,18 @@ public class DBHelper extends SQLiteOpenHelper {
             return false;
         else
             return true;
+
+    }
+
+    public Cursor getdata ()
+    {
+        SQLiteDatabase DB = this.getWritableDatabase();
+        Cursor cursor = DB.rawQuery("Select * from account", null);
+        return cursor;
+    }
+
+    public void QueryData(String sql){
+        SQLiteDatabase database=getWritableDatabase();
+        database.execSQL(sql);
     }
 }

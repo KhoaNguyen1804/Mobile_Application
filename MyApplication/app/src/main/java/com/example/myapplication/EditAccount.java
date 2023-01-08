@@ -1,4 +1,4 @@
-package vn.edu.usth.account;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
