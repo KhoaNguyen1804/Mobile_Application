@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAccount"
+    android:orientation="vertical"
+    android:id="@+id/editaccountid">
+<TextView
+    android:id="@+id/accountname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:textSize="30dp">
+</TextView>
+
+
+        <TextView
+            android:id="@+id/accountemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/accountpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/accountphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit your name?"
+
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+
+
+
+        <EditText
+            android:id="@+id/editpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Edit your password?"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+
+
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Edit your email?"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+
+
+
+        <EditText
+            android:id="@+id/editphonenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Edit your phone number?"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+
+
+
+
+
+
+
+</LinearLayout>
