@@ -7,14 +7,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static final String DBNAME = "UserInformation.db";
+    public static final String DBNAME = "User.db";
 
     public DBHelper(Context context) {
-        super(context, "UserInformation.db", null, 1);
+        super(context, "User.db", null, 1);
     }
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
-        MyDB.execSQL("create Table users(email TEXT primary key, password TEXT, phonenumber TEXT, name TEXT)");
+        MyDB.execSQL("create Table users(email TEXT primary key, password TEXT, name TEXT, phonenumber TEXT)");
     }
 
     @Override
@@ -73,3 +73,4 @@ public class DBHelper extends SQLiteOpenHelper {
             return true;
     }
 }
+
