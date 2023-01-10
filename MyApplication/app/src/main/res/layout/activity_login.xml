@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/signintitle"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:background="#30ffffff"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="20dp"
@@ -98,7 +98,8 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
-            android:src="@drawable/google" />
+            android:src="@drawable/google"
+            android:id="@+id/google_btn"/>
     </LinearLayout>
 
 </RelativeLayout>
