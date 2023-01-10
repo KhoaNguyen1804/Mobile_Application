@@ -54,7 +54,19 @@ public class LoginActivity extends AppCompatActivity {
                     Boolean checkuserpass = DB.checkuseremailpassword(useremail, pass);
                     if(checkuserpass==true) {
                         Toast.makeText(LoginActivity.this, "Sign in successfull", Toast.LENGTH_SHORT).show();
-                        Intent intent  = new Intent(getApplicationContext(), MainActivity.class);
+                        //Bundle bundle = new Bundle();
+                        //String myMessage = "Stackoverflow is cool!";
+                        //bundle.putString("message", useremail );
+                        //PersonalFragment fragInfo = new PersonalFragment();
+                        //fragInfo.setArguments(bundle);
+                        //FragmentTransaction transaction = fragmentManager.beginTransaction();
+                        //transaction.replace(R.id.fragment_single, fragInfo);
+                        //transaction.commit();
+                        //Intent intent  = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent intent  = new Intent(LoginActivity.this, MainActivity.class);
+
+                        intent.putExtra("user-email",useremail);
+                        intent.putExtra("pass",pass);
                         startActivity(intent);
                     }else{
                         Toast.makeText(LoginActivity.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();

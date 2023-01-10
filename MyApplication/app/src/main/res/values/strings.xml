@@ -2,4 +2,16 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SendButton">READ</string>
+    <string name="Title1">Cách chăm sóc người cao tuổi tại nhà bằng cách thường xuyên liên lạc</string>
+    <string name="Num1BlogCt">
+        Nếu bạn đi học, đi làm xa, không ở cùng với ông bà hoặc bố mẹ thì hãy cố gắng dành chút thời gian để liên lạc,
+        hỏi thăm sức khỏe họ mỗi ngày. Cách này là sợi dây vô hình gắn kết mọi người với nhau.
+        Ngày nay, cuộc sống ngày càng hiện đại, dưới sự trợ giúp của các thiết bị công nghệ: điện thoại, smartphone, mạng
+        xã hội, bạn có thể kết nối với bố mẹ một cách dễ dàng dù đang ở rất xa. Đặc biệt, nếu trong gia đình của bạn có
+        người thân vừa mới mất thì bạn càng phải liên lạc thường xuyên hơn với những người còn lại để họ không có cảm giác
+        bị bỏ rơi và cô đơn.
+
+    </string>
+    <string name="Showless">Show less</string>
 </resources>
