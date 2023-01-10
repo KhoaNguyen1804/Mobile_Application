@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.database.Cursor;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -91,10 +90,5 @@ public class EditAccount extends AppCompatActivity {
                     }
                 }
         );
-
-
-
-
     }
-
 }

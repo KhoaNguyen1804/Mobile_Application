@@ -6,13 +6,10 @@
     tools:context=".PersonalFragment"
     android:id="@+id/person">
 
-
-
     <TextView
         android:id="@+id/thu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:textSize="25dp"
         android:layout_centerInParent="true"/>
     <TextView
@@ -21,6 +18,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/thu"
         android:textSize="25dp"
-        android:layout_centerInParent="true"
-        />
+        android:layout_centerInParent="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_account_btn"
+        android:text="EDIT PROFILE"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightblue"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="100dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout_btn"
+        android:text="LOGOUT"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightblue"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp" />
+
 </RelativeLayout>
