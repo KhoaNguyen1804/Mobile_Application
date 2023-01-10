@@ -32,6 +32,7 @@ public class BlogFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_blog, container, false);
+        Integer visi= View.GONE;
         Boolean firstime= Boolean.TRUE;
         LinearLayout l= v.findViewById(R.id.Num1Blog);
         LinearLayout l2= v.findViewById(R.id.Num2Blog);
