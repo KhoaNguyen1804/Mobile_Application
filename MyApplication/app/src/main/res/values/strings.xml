@@ -3,14 +3,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="SendButton">READ</string>
-    <string name="Title1">Cách chăm sóc người cao tuổi tại nhà bằng cách thường xuyên liên lạc</string>
+    <string name="Title1">How to take care of the elderly at home by staying in touch</string>
+    <string name="Title2">Activity and Training</string>
     <string name="Num1BlogCt">
-        Nếu bạn đi học, đi làm xa, không ở cùng với ông bà hoặc bố mẹ thì hãy cố gắng dành chút thời gian để liên lạc,
-        hỏi thăm sức khỏe họ mỗi ngày. Cách này là sợi dây vô hình gắn kết mọi người với nhau.
-        Ngày nay, cuộc sống ngày càng hiện đại, dưới sự trợ giúp của các thiết bị công nghệ: điện thoại, smartphone, mạng
-        xã hội, bạn có thể kết nối với bố mẹ một cách dễ dàng dù đang ở rất xa. Đặc biệt, nếu trong gia đình của bạn có
-        người thân vừa mới mất thì bạn càng phải liên lạc thường xuyên hơn với những người còn lại để họ không có cảm giác
-        bị bỏ rơi và cô đơn.
+        If you go to school, work far away, do not live with grandparents, parents, try to spend time to contact,
+        inquire about their health every day. This way is an invisible cable that connects people to each other.
+        Today, life is more and more modern, with the help of technological devices: phones, smartphones, internet.
+        Socially, you can connect with your parents easily even if you are far away. Especially if in your family there are
+        the person who has just died, the more often you have to communicate with the rest of them so that they no longer feel
+        abandoned and lonely.
+
+    </string>
+    <string name="Num2BlogCt">
+        People often think that, when they are old, they need to rest and recuperate. However, the truth is not like that.In old
+        age, if you do not exercise regularly physically and mentally, your health will quickly decline, causing bad diseases such
+        as bone and joint problems, weight even affecting the mind.Therefore, you should let them regularly communicate and exercise
+        in accordance with their health status and wishes.
 
     </string>
     <string name="Showless">Show less</string>

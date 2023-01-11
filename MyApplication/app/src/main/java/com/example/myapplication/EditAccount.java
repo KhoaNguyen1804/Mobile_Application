@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.database.Cursor;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -47,7 +48,7 @@ public class EditAccount extends AppCompatActivity {
             // t2.setText(u.email);
         }
         else{
-            t.setText("Fail vl");
+            t.setText("Fail quá");
         }
         b1.setOnClickListener(
                 new View.OnClickListener() {
@@ -90,5 +91,10 @@ public class EditAccount extends AppCompatActivity {
                     }
                 }
         );
+
+
+
+
     }
+
 }
